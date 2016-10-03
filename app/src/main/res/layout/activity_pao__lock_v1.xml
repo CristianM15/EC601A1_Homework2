@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pao__lock_v1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    tools:context="com.example.cristian.ec601_hw2.PAO_Lock_v1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Here's your code:"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <ImageButton
+            android:id="@+id/image_02"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/image_02"
+            android:onClick="concatenate02" />
+
+        <ImageButton
+            android:id="@+id/image_03"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/image_03"
+            android:onClick="concatenate03" />
+
+        <ImageButton
+            android:id="@+id/image_05"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/image_05"
+            android:onClick="concatenate05" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <ImageButton
+            android:id="@+id/image_10"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/image_10"
+            android:onClick="concatenate10" />
+
+        <ImageButton
+            android:id="@+id/image_13"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/image_13"
+            android:onClick="concatenate13" />
+
+        <ImageButton
+            android:id="@+id/image_20"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/image_20"
+            android:onClick="concatenate20" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <ImageButton
+            android:id="@+id/image_24"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/image_24"
+            android:onClick="concatenate24" />
+
+        <ImageButton
+            android:id="@+id/image_25"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/image_25"
+            android:onClick="concatenate25" />
+
+        <ImageButton
+            android:id="@+id/image_26"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/image_26"
+            android:onClick="concatenate26" />
+    </LinearLayout>
+
+</LinearLayout>
+
+

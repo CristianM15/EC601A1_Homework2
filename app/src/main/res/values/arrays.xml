@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="PAOnumbers">
+        <item>02</item>
+        <item>03</item>
+        <item>05</item>
+        <item>10</item>
+        <item>13</item>
+        <item>20</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+    </integer-array>
+</resources>
